@@ -6,8 +6,7 @@ from student_system import (
     search_student_menu,
     edit_student_menu,
     remove_student_menu,
-    print_student_list
-)
+    print_student_list)
 
 def main():
     students = load_data(DATA_FILE)
