@@ -1,0 +1,170 @@
+Welcome to the Students Enrollment system
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+1
+Enter id of the student, followed by the student's information.
+Id: 1
+First name: John
+Last name: Doe
+GPA: 3.2
+Semester: 1
+Student Enrolled in the system
+1       John    Doe     3.2     1
+Do you want to add more students? y(yes)/n(no) y
+Enter id of the student, followed by the student's information.
+Id: 2
+First name: Emy
+Last name: Miller
+GPA: 4
+Semester: 1
+Student Enrolled in the system
+2       Emy     Miller  4.0     1
+Do you want to add more students? y(yes)/n(no) y
+Enter id of the student, followed by the student's information.
+Id: 2
+First name: Sara
+Last name: Gray
+GPA: 2.8
+Semester: 3
+Incorrect Id. Id already exist in the system.
+Do you want to add more students? y(yes)/n(no) y
+Enter id of the student, followed by the student's information.
+Id: 3
+First name: Sara
+Last name: Gray
+GPA: 2.8
+Semester: 3
+Student Enrolled in the system
+3       Sara    Gray    2.8     3
+Do you want to add more students? y(yes)/n(no) n
+Continue (y/yes) or exit (n/no)? y
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+2
+To search using the Id enter 1. To search using the first name and last name enter 2. Enter -1 to return.
+1
+Please Enter the id: 2
+Student found  2        Emy     Miller  4.0     1
+To search using the Id enter 1. To search using the first name and last name enter 2. Enter -1 to return.   
+2
+Please Enter the first name: Sarah
+Please Enter the last name: Gray
+Student not found
+To search using the Id enter 1. To search using the first name and last name enter 2. Enter -1 to return.   
+2
+Please Enter the first name: Sara
+Please Enter the last name: Gray
+Student found  3        Sara    Gray    2.8     3
+To search using the Id enter 1. To search using the first name and last name enter 2. Enter -1 to return.   
+-1
+Continue (y/yes) or exit (n/no)? y
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+3
+Enter the id (-1 to return): 2
+First name: Emmy
+Last name: Miller
+GPA: 3.2
+Semester: 1
+Student's new info is  2        Emmy    Miller  3.2     1
+Enter the id (-1 to return): -1
+Continue (y/yes) or exit (n/no)? y
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+1
+Enter id of the student, followed by the student's information.
+Id: 4
+First name: Emmy
+Last name: Miller
+GPA: 3.2
+Semester: 2
+The student already enrolled. No action is required..
+Do you want to add more students? y(yes)/n(no) y
+Enter id of the student, followed by the student's information.
+Id: 4
+First name: Emmy
+Last name: Wang
+GPA: 3.2
+Semester: 2
+Student Enrolled in the system
+4       Emmy    Wang    3.2     2
+Do you want to add more students? y(yes)/n(no) y
+Enter id of the student, followed by the student's information.
+Id: 5
+First name: Sean
+Last name: Johnson
+GPA: 3.2
+Semester: 4
+Student Enrolled in the system
+5       Sean    Johnson 3.2     4
+Do you want to add more students? y(yes)/n(no) n
+Continue (y/yes) or exit (n/no)? y
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+4
+Enter id: 2
+Student removed
+Remove more students? y/n n
+Continue (y/yes) or exit (n/no)? y
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+5
+1       John    Doe     3.2     1
+3       Sara    Gray    2.8     3
+4       Emmy    Wang    3.2     2
+5       Sean    Johnson 3.2     4
+Continue (y/yes) or exit (n/no)? y
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+6
+Data saved to local file successfully!
+Continue (y/yes) or exit (n/no)? n
+PS C:\Users\enzoj\OneDrive\Documents\fall-2025\cprg-216-I\Lab\assignment 3> & C:\Users\enzoj\AppData\Local\Microsoft\WindowsApps\python3.13.exe "c:/Users/enzoj/OneDrive/Documents/fall-2025/cprg-216-I/Lab/assignment 3/assignment_3.py"
+Welcome to the Students Enrollment system
+What would you like to do today?
+-Add a student? enter 1
+-Search for student 2
+-Edit student info? enter 3
+-Remove a student? enter 4
+-Print the student list? enter 5
+-Save the data to a file? enter 6
+5
+1       John    Doe     3.2     1
+3       Sara    Gray    2.8     3
+4       Emmy    Wang    3.2     2
+5       Sean    Johnson 3.2     4 
